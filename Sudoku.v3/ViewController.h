@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GridView.h"
+#import "NumberPadView.h"
+#import "GridModel.h"
+#import "GridGenerator.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    GridView* theGrid;
+    NumberPadView* theNumPad;
+    GridModel* theGridModel;
+    GridGenerator* theGridGenerator;
+}
+
+-(void) buttonPressed;
 
 @end

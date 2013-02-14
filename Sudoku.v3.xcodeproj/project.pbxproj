@@ -24,6 +24,11 @@
 		4EE5D99E16C8A67700AEDCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE5D97616C8A67600AEDCAA /* Foundation.framework */; };
 		4EE5D9A616C8A67700AEDCAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5D9A416C8A67700AEDCAA /* InfoPlist.strings */; };
 		4EE5D9A916C8A67700AEDCAA /* Sudoku_v3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D9A816C8A67700AEDCAA /* Sudoku_v3Tests.m */; };
+		4EE5D9B416C8A68B00AEDCAA /* GridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D9B316C8A68B00AEDCAA /* GridModel.m */; };
+		4EE5D9B716C8A6A400AEDCAA /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D9B616C8A6A400AEDCAA /* GridView.m */; };
+		4EE5D9BA16C8A6BB00AEDCAA /* NumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D9B916C8A6BB00AEDCAA /* NumberPadView.m */; };
+		4EE5D9BD16C8A6DC00AEDCAA /* GridGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D9BC16C8A6DC00AEDCAA /* GridGenerator.m */; };
+		AB16EB7C16CB164600B451BE /* grid2.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB16EB7B16CB164600B451BE /* grid2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,15 @@
 		4EE5D9A516C8A67700AEDCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EE5D9A716C8A67700AEDCAA /* Sudoku_v3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sudoku_v3Tests.h; sourceTree = "<group>"; };
 		4EE5D9A816C8A67700AEDCAA /* Sudoku_v3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sudoku_v3Tests.m; sourceTree = "<group>"; };
+		4EE5D9B216C8A68B00AEDCAA /* GridModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridModel.h; path = ../GridModel.h; sourceTree = "<group>"; };
+		4EE5D9B316C8A68B00AEDCAA /* GridModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridModel.m; path = ../GridModel.m; sourceTree = "<group>"; };
+		4EE5D9B516C8A6A400AEDCAA /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		4EE5D9B616C8A6A400AEDCAA /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		4EE5D9B816C8A6BB00AEDCAA /* NumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPadView.h; sourceTree = "<group>"; };
+		4EE5D9B916C8A6BB00AEDCAA /* NumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPadView.m; sourceTree = "<group>"; };
+		4EE5D9BB16C8A6DC00AEDCAA /* GridGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridGenerator.h; sourceTree = "<group>"; };
+		4EE5D9BC16C8A6DC00AEDCAA /* GridGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridGenerator.m; sourceTree = "<group>"; };
+		AB16EB7B16CB164600B451BE /* grid2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = grid2.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +137,14 @@
 				4EE5D98416C8A67600AEDCAA /* AppDelegate.m */,
 				4EE5D98C16C8A67600AEDCAA /* ViewController.h */,
 				4EE5D98D16C8A67600AEDCAA /* ViewController.m */,
+				4EE5D9B216C8A68B00AEDCAA /* GridModel.h */,
+				4EE5D9B316C8A68B00AEDCAA /* GridModel.m */,
+				4EE5D9B516C8A6A400AEDCAA /* GridView.h */,
+				4EE5D9B616C8A6A400AEDCAA /* GridView.m */,
+				4EE5D9B816C8A6BB00AEDCAA /* NumberPadView.h */,
+				4EE5D9B916C8A6BB00AEDCAA /* NumberPadView.m */,
+				4EE5D9BB16C8A6DC00AEDCAA /* GridGenerator.h */,
+				4EE5D9BC16C8A6DC00AEDCAA /* GridGenerator.m */,
 				4EE5D98F16C8A67600AEDCAA /* ViewController_iPhone.xib */,
 				4EE5D99216C8A67600AEDCAA /* ViewController_iPad.xib */,
 				4EE5D97B16C8A67600AEDCAA /* Supporting Files */,
@@ -133,6 +155,7 @@
 		4EE5D97B16C8A67600AEDCAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB16EB7B16CB164600B451BE /* grid2.txt */,
 				4EE5D97C16C8A67600AEDCAA /* Sudoku.v3-Info.plist */,
 				4EE5D97D16C8A67600AEDCAA /* InfoPlist.strings */,
 				4EE5D98016C8A67600AEDCAA /* main.m */,
@@ -240,6 +263,7 @@
 				4EE5D98B16C8A67600AEDCAA /* Default-568h@2x.png in Resources */,
 				4EE5D99116C8A67600AEDCAA /* ViewController_iPhone.xib in Resources */,
 				4EE5D99416C8A67600AEDCAA /* ViewController_iPad.xib in Resources */,
+				AB16EB7C16CB164600B451BE /* grid2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +301,10 @@
 				4EE5D98116C8A67600AEDCAA /* main.m in Sources */,
 				4EE5D98516C8A67600AEDCAA /* AppDelegate.m in Sources */,
 				4EE5D98E16C8A67600AEDCAA /* ViewController.m in Sources */,
+				4EE5D9B416C8A68B00AEDCAA /* GridModel.m in Sources */,
+				4EE5D9B716C8A6A400AEDCAA /* GridView.m in Sources */,
+				4EE5D9BA16C8A6BB00AEDCAA /* NumberPadView.m in Sources */,
+				4EE5D9BD16C8A6DC00AEDCAA /* GridGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +495,7 @@
 				4EE5D9AE16C8A67700AEDCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE5D9AF16C8A67700AEDCAA /* Build configuration list for PBXNativeTarget "Sudoku.v3Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +504,7 @@
 				4EE5D9B116C8A67700AEDCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
