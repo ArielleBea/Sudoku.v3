@@ -3,7 +3,7 @@
 //  Sudoku.v3
 //
 //  Created by Abigail Gregory on 2/10/13.
-//  Copyright (c) 2013 Abigail Gregory and Izzy Funke. All rights reserved.
+//  Copyright (c) 2013 Abigail Gregory, Izzy Funke, Ari Schlesinger, and Miranda Parker . All rights reserved.
 //
 
 #import "GridGenerator.h"
@@ -16,14 +16,15 @@
     
     NSString* readString = [[NSString alloc] initWithContentsOfFile:path encoding: NSUTF8StringEncoding error:&error];
     
-    int gridChoice = arc4random()%30000 * 81;
+    // 81 characters in a grid and an addtional newline character = *82
+    int gridChoice = arc4random()%30000 * 82;
     
     for (int row = 0; row < 9; row++)
     {
         for (int col = 0; col < 9; col++)
         {
             // We wanted to do the following, but we couldn't figure out Objective C :(
-            //if (strcmp([readString characterAtIndex:row*9+col], ".") == 0)
+            // if (strcmp([readString characterAtIndex:row*9+col], ".") == 0)
             //    initialGrid[row][col] = 0;
             
             initialGrid[row][col] = (int) [readString characterAtIndex:gridChoice+row*9+col] - '0';
